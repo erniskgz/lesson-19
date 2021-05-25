@@ -1,0 +1,29 @@
+@import "../vars";
+
+.header {
+  background-color: $secondary-color;
+
+  &__inner {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav {
+    max-width: 445px;
+    order: -1;
+  }
+
+  // &__logo {
+  // }
+
+  &__submenu {
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: $accent-color;
+  }
+}
